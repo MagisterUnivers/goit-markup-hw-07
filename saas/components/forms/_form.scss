@@ -20,24 +20,55 @@
 
 	transition: opacity 500ms ease var(--transition-slow),
 		transform 1000ms ease var(--transition-slow);
-}
 
-/* Modal form */
-.modal-title {
-	display: block;
+
+		&title {
+			display: block;
 	font-size: 20px;
 	line-height: calc(23 / 20);
 	text-align: center;
 	letter-spacing: 0.03em;
 	margin-bottom: 12px;
-}
+		}
 
-.modal-label {
-	position: relative;
+		&label {
+			position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
+		}
+
+		&icon {
+			position: absolute;
+	bottom: 11px;
+	left: 12px;
+	transition: fill var(--transition-fast) var(--transition-function);
+		}
+
+		&comment {
+			font-size: 12px;
+	line-height: calc(14 / 12);
+	letter-spacing: 0.01em;
+	color: #757575;
+		}
 }
+
+// /* Modal form */
+// .modal-title {
+// 	display: block;
+// 	font-size: 20px;
+// 	line-height: calc(23 / 20);
+// 	text-align: center;
+// 	letter-spacing: 0.03em;
+// 	margin-bottom: 12px;
+// }
+
+// .modal-label {
+// 	position: relative;
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 4px;
+// }
 
 .modal-label:not(:last-child) {
 	margin-bottom: 10px;
@@ -71,12 +102,12 @@
 	fill: var(--accent-color);
 }
 
-.modal-icon {
-	position: absolute;
-	bottom: 11px;
-	left: 12px;
-	transition: fill var(--transition-fast) var(--transition-function);
-}
+// .modal-icon {
+// 	position: absolute;
+// 	bottom: 11px;
+// 	left: 12px;
+// 	transition: fill var(--transition-fast) var(--transition-function);
+// }
 
 .modal-label > .modal-comment-textarea {
 	resize: none;
@@ -84,12 +115,12 @@
 	height: 120px;
 }
 
-.modal-comment {
-	font-size: 12px;
-	line-height: calc(14 / 12);
-	letter-spacing: 0.01em;
-	color: #757575;
-}
+// .modal-comment {
+// 	font-size: 12px;
+// 	line-height: calc(14 / 12);
+// 	letter-spacing: 0.01em;
+// 	color: #757575;
+// }
 
 .modal-label .modal-comment-textarea::placeholder {
 	font-family: 'Roboto';

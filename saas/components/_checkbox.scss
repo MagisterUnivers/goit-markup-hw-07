@@ -31,12 +31,16 @@
 	align-items: center;
 	justify-content: center;
 	transition: background-color var(--transition-fast) var(--transition-function);
+	&icon {
+		fill: transparent;
+		transition: fill var(--transition-fast) var(--transition-function);
+	}
 }
 
-.checkbox-icon {
-	fill: transparent;
-	transition: fill var(--transition-fast) var(--transition-function);
-}
+// .checkbox-icon {
+// 	fill: transparent;
+// 	transition: fill var(--transition-fast) var(--transition-function);
+// }
 
 .modal-checkbox:checked + .checkbox-custom {
 	background-color: var(--accent-color);

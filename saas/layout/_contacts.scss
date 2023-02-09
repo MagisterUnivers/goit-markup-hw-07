@@ -30,12 +30,18 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	color: var(--secondarytext-color);
+	&:hover {
+		color: var(--logo-color);
+	}
+	&:focus {
+		color: var(--logo-color);
+	}
 }
 
-.header-contacts__item-link:hover,
-.header-contacts__item-link:focus {
-	color: var(--logo-color);
-}
+// .header-contacts__item-link:hover,
+// .header-contacts__item-link:focus {
+// 	color: var(--logo-color);
+// }
 
 .phone-icon,
 .email-icon {
