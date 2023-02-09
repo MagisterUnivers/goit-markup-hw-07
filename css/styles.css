@@ -1148,7 +1148,7 @@ p {
   width: 448px;
   /* margin-bottom: 10px; */
 
-}
+
 
 /* .modal__form-uppertitle {
   font-family: 'Roboto';
@@ -1204,7 +1204,6 @@ p {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 } */
-*/
 /* .modal__form-textarea__field {
   width: 416px;
   height: 96px;
@@ -1397,7 +1396,7 @@ button .modal-label>.modal-comment-textarea::placeholder {
   transition: background-color var(--transition-fast) var(--transition-function);
 }
 
-..button.primary.modal-btn-submit:focus {
+.button.primary.modal-btn-submit:focus {
   background-color: var(--button-active);
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
@@ -1476,9 +1475,6 @@ button .modal-label>.modal-comment-textarea::placeholder {
   border-color: var(--accent-color);
   outline: 1px solid transparent;
 }
-
-border-color: var(--accent-color);
-outline: 1px solid transparent;
 
 .subscribe-form-wrapper>.input-field::placeholder {
   font-size: 16px;
